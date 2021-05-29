@@ -1,0 +1,52 @@
+@import "_mixins";
+@import "_fonts.scss";
+body{
+	font-family: "ProximaNova", sans-serif;
+	font-weight: 400;
+}
+.header {
+	background-color: #191919;
+	padding: 30px 0px;
+		&__wrapper-img{
+			width: 190px;
+			height: 40px;
+			img{
+				max-width: 100%;
+			}
+		}
+		&__data {
+			font-size: 12px;
+		}
+
+		&__data-time {
+			font-weight: 700;
+		}
+
+		&__data-text {
+		}
+
+		&__contact {
+		}
+
+		&__contact-tels {
+			padding: 0px 28px 0px 0px;
+			a{
+				font-size: 18px;
+				font-weight: 900;
+				text-align: right;
+				color: #ffffff;
+				text-decoration: none;
+				line-height: 100%;
+			}
+		}
+
+		&__callback {
+			height: 50px;
+			border: 0;
+			border-radius: 0;
+			background-image: linear-gradient(to top, #273588, #1c62ac);
+			&:hover{
+				
+			}
+		}
+}
